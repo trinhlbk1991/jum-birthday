@@ -125,7 +125,7 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: 300px;
+  top: 500px;
   left: 30.5%;
   /* transform: scale(0.1); */
 }
@@ -225,6 +225,7 @@ body {
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
+  overflow-y: scroll;
 }
 
 #replay {
