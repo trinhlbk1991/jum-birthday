@@ -38,7 +38,7 @@ const animationTimeline = () => {
     .split("")
     .join("</span><span>")}</span`;
 
-  const ideaTextTrans = {
+const ideaTextTrans = {
     opacity: 0,
     y: -20,
     rotationX: 5,
@@ -158,7 +158,7 @@ const animationTimeline = () => {
       ".idea-5 .smiley",
       0.7,
       {
-        rotation: 90,
+        rotation: 360,
         x: 8
       },
       "+=0.4"
@@ -282,12 +282,12 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine p", 10, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
       0.5,
       {
-        rotation: 90
+        rotation: 360
       },
       "+=1"
     );
