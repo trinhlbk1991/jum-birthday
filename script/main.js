@@ -282,7 +282,7 @@ const ideaTextTrans = {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 10, ideaTextTrans, 1.2)
+    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
       0.5,
@@ -293,7 +293,7 @@ const ideaTextTrans = {
     );
 
   // tl.seek("currentStep");
-  // tl.timeScale(2);
+    tl.timeScale(2);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
