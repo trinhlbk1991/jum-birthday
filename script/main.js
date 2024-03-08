@@ -293,7 +293,7 @@ const ideaTextTrans = {
     );
 
   // tl.seek("currentStep");
-    tl.timeScale(0.5);
+    tl.timeScale(0.75);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
